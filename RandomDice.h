@@ -14,12 +14,15 @@
 #ifndef RANDOMDICE_H
 #define RANDOMDICE_H
 
-class RandomDice {
-public:
-    RandomDice();
-    RandomDice(const RandomDice& orig);
-    virtual ~RandomDice();
-private:
+/* 
+ * RandomDice should be a helper structure with only static objects.
+ * The structure has the task to hold all objects needed to use one 
+ * std::uniform_int_distribution
+ * for all dice ensuring that the pseudo 
+ * random numbers do not start at the same value. 
+ */ 
+struct RandomDice {
+
 
 };
 

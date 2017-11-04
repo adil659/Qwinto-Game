@@ -43,7 +43,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/QwixxPlayer.o \
 	${OBJECTDIR}/QwixxRow.o \
 	${OBJECTDIR}/QwixxScoreSheet.o \
-	${OBJECTDIR}/RandomDice.o \
 	${OBJECTDIR}/RollOfDice.o \
 	${OBJECTDIR}/ScoreSheet.o \
 	${OBJECTDIR}/main.o
@@ -112,11 +111,6 @@ ${OBJECTDIR}/QwixxScoreSheet.o: QwixxScoreSheet.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/QwixxScoreSheet.o QwixxScoreSheet.cpp
-
-${OBJECTDIR}/RandomDice.o: RandomDice.cpp
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/RandomDice.o RandomDice.cpp
 
 ${OBJECTDIR}/RollOfDice.o: RollOfDice.cpp
 	${MKDIR} -p ${OBJECTDIR}
