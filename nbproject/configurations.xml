@@ -4,6 +4,18 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Colour.h</itemPath>
+      <itemPath>Dice.h</itemPath>
+      <itemPath>Player.h</itemPath>
+      <itemPath>QwintoPlayer.h</itemPath>
+      <itemPath>QwintoRow.h</itemPath>
+      <itemPath>QwintoScoreSheet.h</itemPath>
+      <itemPath>QwixxPlayer.h</itemPath>
+      <itemPath>QwixxRow.h</itemPath>
+      <itemPath>QwixxScoreSheet.h</itemPath>
+      <itemPath>RandomDice.h</itemPath>
+      <itemPath>RollOfDice.h</itemPath>
+      <itemPath>ScoreSheet.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +24,17 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Dice.cpp</itemPath>
+      <itemPath>Player.cpp</itemPath>
+      <itemPath>QwintoPlayer.cpp</itemPath>
+      <itemPath>QwintoRow.cpp</itemPath>
+      <itemPath>QwintoScoreSheet.cpp</itemPath>
+      <itemPath>QwixxPlayer.cpp</itemPath>
+      <itemPath>QwixxRow.cpp</itemPath>
+      <itemPath>QwixxScoreSheet.cpp</itemPath>
+      <itemPath>RandomDice.cpp</itemPath>
+      <itemPath>RollOfDice.cpp</itemPath>
+      <itemPath>ScoreSheet.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -39,6 +62,52 @@
           <standard>8</standard>
         </ccTool>
       </compileType>
+      <item path="Colour.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Dice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Dice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwintoPlayer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwintoPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwintoRow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwintoRow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwintoScoreSheet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwintoScoreSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwixxPlayer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwixxPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwixxRow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwixxRow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwixxScoreSheet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwixxScoreSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomDice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomDice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RollOfDice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RollOfDice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ScoreSheet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ScoreSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -63,6 +132,52 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Colour.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Dice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Dice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Player.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Player.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwintoPlayer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwintoPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwintoRow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwintoRow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwintoScoreSheet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwintoScoreSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwixxPlayer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwixxPlayer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwixxRow.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwixxRow.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QwixxScoreSheet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="QwixxScoreSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomDice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomDice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RollOfDice.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RollOfDice.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ScoreSheet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ScoreSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>

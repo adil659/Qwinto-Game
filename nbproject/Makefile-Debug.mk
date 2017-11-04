@@ -35,6 +35,17 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Dice.o \
+	${OBJECTDIR}/Player.o \
+	${OBJECTDIR}/QwintoPlayer.o \
+	${OBJECTDIR}/QwintoRow.o \
+	${OBJECTDIR}/QwintoScoreSheet.o \
+	${OBJECTDIR}/QwixxPlayer.o \
+	${OBJECTDIR}/QwixxRow.o \
+	${OBJECTDIR}/QwixxScoreSheet.o \
+	${OBJECTDIR}/RandomDice.o \
+	${OBJECTDIR}/RollOfDice.o \
+	${OBJECTDIR}/ScoreSheet.o \
 	${OBJECTDIR}/main.o
 
 
@@ -61,6 +72,61 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/qwinto-qwixx: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/qwinto-qwixx ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Dice.o: Dice.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Dice.o Dice.cpp
+
+${OBJECTDIR}/Player.o: Player.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Player.o Player.cpp
+
+${OBJECTDIR}/QwintoPlayer.o: QwintoPlayer.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/QwintoPlayer.o QwintoPlayer.cpp
+
+${OBJECTDIR}/QwintoRow.o: QwintoRow.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/QwintoRow.o QwintoRow.cpp
+
+${OBJECTDIR}/QwintoScoreSheet.o: QwintoScoreSheet.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/QwintoScoreSheet.o QwintoScoreSheet.cpp
+
+${OBJECTDIR}/QwixxPlayer.o: QwixxPlayer.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/QwixxPlayer.o QwixxPlayer.cpp
+
+${OBJECTDIR}/QwixxRow.o: QwixxRow.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/QwixxRow.o QwixxRow.cpp
+
+${OBJECTDIR}/QwixxScoreSheet.o: QwixxScoreSheet.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/QwixxScoreSheet.o QwixxScoreSheet.cpp
+
+${OBJECTDIR}/RandomDice.o: RandomDice.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/RandomDice.o RandomDice.cpp
+
+${OBJECTDIR}/RollOfDice.o: RollOfDice.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/RollOfDice.o RollOfDice.cpp
+
+${OBJECTDIR}/ScoreSheet.o: ScoreSheet.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/ScoreSheet.o ScoreSheet.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
