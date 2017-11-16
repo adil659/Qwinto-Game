@@ -14,13 +14,22 @@
 #ifndef DICE_H
 #define DICE_H
 
+#include "Colour.h"
+#include <iostream>
+
 class Dice {
+    const Colour colour = Colour::WHITE;//should be initia in construct
+    int face; //1 to 6 
 public:
     Dice();
-    Dice(const Dice& orig);
-    virtual ~Dice();
-private:
+   // Dice(const Dice& orig);
+    //virtual ~Dice();
+    int roll();
+    friend std::ostream& operator<<(std::ostream& os, const Dice& dc);  
 
+
+private:
+    
 };
 
 #endif /* DICE_H */

@@ -14,7 +14,8 @@
 #ifndef COLOUR_H
 #define COLOUR_H
 
-enum struct Color{ RED=1, YELLOW=2, GREEN=3, BLUE=4, WHITE=5 };
+
+enum struct Colour{ RED=1, YELLOW=2, GREEN=3, BLUE=4, WHITE=5 };
 
 
 #endif /* COLOUR_H */

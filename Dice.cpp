@@ -15,10 +15,16 @@
 
 Dice::Dice() {
 }
-
+/*
 Dice::Dice(const Dice& orig) {
 }
 
 Dice::~Dice() {
 }
-
+*/
+std::ostream& operator<<(std::ostream& os, const Dice& dc)  
+{  
+    
+    os << static_cast<int>(dc.colour) << std::endl;  
+    return os;  
+}  

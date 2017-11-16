@@ -12,14 +12,19 @@
  */
 
 #include <cstdlib>
-
+#include "Dice.h"
 using namespace std;
 
 /*
  * 
  */
 int main(int argc, char** argv) {
-
+    Dice dice;
+    cout << dice;
+    
+    
+    
+    
     return 0;
 }
 
