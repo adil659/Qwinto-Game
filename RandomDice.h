@@ -21,12 +21,13 @@
  * for all dice ensuring that the pseudo 
  * random numbers do not start at the same value. 
  */ 
+#include <random>
+
 struct RandomDice {
     static std::random_device rd;  //Will be used to obtain a seed for the random number engine
-    static std::mt19937 gen(rd()); //Standard mersenne_twister_engine seeded with rd() 
-    static std::uniform_int_distribution<> dis(1, 6);
+    static std::mt19937 gen; //Standard mersenne_twister_engine seeded with rd() 
+    static std::uniform_int_distribution<> dis;
     // use  :  result = dis(gen);
-
 };
 
 #endif /* RANDOMDICE_H */

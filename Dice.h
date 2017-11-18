@@ -17,10 +17,12 @@
 #include "Colour.h"
 #include <iostream>
 
+
 class Dice {
+    
+public:
     const Colour colour = Colour::WHITE;//should be initia in construct
     int face; //1 to 6 
-public:
     Dice();
    // Dice(const Dice& orig);
     //virtual ~Dice();

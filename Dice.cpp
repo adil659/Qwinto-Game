@@ -12,8 +12,10 @@
  */
 
 #include "Dice.h"
+#include "RandomDice.h"
 
 Dice::Dice() {
+    face = RandomDice::dis(RandomDice::gen);
 }
 /*
 Dice::Dice(const Dice& orig) {
@@ -22,9 +24,14 @@ Dice::Dice(const Dice& orig) {
 Dice::~Dice() {
 }
 */
+
+int Dice::roll(){
+    face = RandomDice::dis(RandomDice::gen);
+    return face;
+}
 std::ostream& operator<<(std::ostream& os, const Dice& dc)  
 {  
-    
-    os << static_cast<int>(dc.colour) << std::endl;  
+    //might have to print colour as Strig   
+    os <<"Colour : "<< static_cast<int>(dc.colour) <<" Value : "<<dc.face<< std::endl;  
     return os;  
 }  

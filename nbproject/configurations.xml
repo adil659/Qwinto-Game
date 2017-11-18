@@ -32,6 +32,7 @@
       <itemPath>QwixxPlayer.cpp</itemPath>
       <itemPath>QwixxRow.cpp</itemPath>
       <itemPath>QwixxScoreSheet.cpp</itemPath>
+      <itemPath>RandomDice.cpp</itemPath>
       <itemPath>RollOfDice.cpp</itemPath>
       <itemPath>ScoreSheet.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
@@ -94,6 +95,8 @@
       <item path="QwixxScoreSheet.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="QwixxScoreSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomDice.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="RandomDice.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -162,6 +165,8 @@
       <item path="QwixxScoreSheet.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="QwixxScoreSheet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomDice.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="RandomDice.h" ex="false" tool="3" flavor2="0">
       </item>

@@ -13,12 +13,6 @@
 
 #include "RandomDice.h"
 
-RandomDice::RandomDice() {
-}
-
-RandomDice::RandomDice(const RandomDice& orig) {
-}
-
-RandomDice::~RandomDice() {
-}
-
+    std::random_device RandomDice::rd;  
+    std::mt19937 RandomDice::gen(RandomDice::rd()); //Standard mersenne_twister_engine seeded with rd() 
+    std::uniform_int_distribution<> RandomDice::dis(1, 6);

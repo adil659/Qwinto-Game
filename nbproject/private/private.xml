@@ -8,10 +8,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/root/NetBeansProjects/Qwinto-Qwixx/Dice.cpp</file>
+            <file>file:/root/NetBeansProjects/Qwinto-Qwixx/Rollofdice.cpp</file>
             <file>file:/root/NetBeansProjects/Qwinto-Qwixx/main.cpp</file>
             <file>file:/root/NetBeansProjects/Qwinto-Qwixx/Dice.h</file>
-            <file>file:/root/NetBeansProjects/Qwinto-Qwixx/RandomDice.h</file>
-            <file>file:/root/NetBeansProjects/Qwinto-Qwixx/Colour.h</file>
+            <file>file:/root/NetBeansProjects/Qwinto-Qwixx/RollOfDice.h</file>
         </group>
     </open-files>
 </project-private>

@@ -10,21 +10,27 @@
  *
  * Created on November 3, 2017, 6:13 PM
  */
-
+#include <iostream>
 #include <cstdlib>
+#include "RandomDice.h"
 #include "Dice.h"
 using namespace std;
 
 /*
  * 
- */
+ 
+  struct majdi{
+     static std::random_device rd;  
+     static std::mt19937 gen; 
+     static std::uniform_int_distribution<> dis(1, 6);
+    };
+ */   
 int main(int argc, char** argv) {
-    Dice dice;
-    cout << dice;
     
     
+    Dice d;
     
-    
+    cout<< d;
     return 0;
 }
 
