@@ -15,10 +15,30 @@
 
 RollOfDice::RollOfDice() {
 }
+RollOfDice::RollOfDice(int size){
+    
+}
 
 RollOfDice::RollOfDice(const RollOfDice& orig) {
 }
 
 RollOfDice::~RollOfDice() {
 }
+int RollOfDice::roll(){
+    int sum = 0;
+    for(Dice d : dices){
+        d.roll();
+        sum+=d.face;
+    }
+    return sum;
+}
 
+int RollOfDice::pair(Dice d1, Dice d2){
+    d1.roll();
+    d2.roll();
+    return d1.face+d2.face;
+}
+
+std::ostream& operator<<(std::ostream& os, const RollOfDice& rdc){
+    os<< "Roll of dice result : " ;
+}

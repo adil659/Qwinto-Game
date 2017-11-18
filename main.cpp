@@ -14,6 +14,7 @@
 #include <cstdlib>
 #include "RandomDice.h"
 #include "Dice.h"
+#include "RollOfDice.h"
 using namespace std;
 
 /*
@@ -27,10 +28,10 @@ using namespace std;
  */   
 int main(int argc, char** argv) {
     
+    Dice dc;
     
-    Dice d;
-    
-    cout<< d;
+    RollOfDice rd;
+    cout << rd;
     return 0;
 }
 
